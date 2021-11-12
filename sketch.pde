@@ -22,7 +22,6 @@ void setup(){
 }
 
 void draw(){
-  framerate(24);
   fill(0, 10);
   rect(0, 0, width, height);
   strokeWeight((int)(Math.random()*6));
