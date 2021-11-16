@@ -28,7 +28,6 @@ void draw(){
   drawLightning();
   if (finish == true){
     xPos = (int)(Math.random()*450);
-    yPos = 1;
-    redraw(); 
+    yPos = 1; 
   }
 }
